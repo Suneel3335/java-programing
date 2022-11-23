@@ -1,0 +1,16 @@
+import java.util.*;
+public class shark9 {
+    public static void main(String[] args){
+        int n;
+        int product=0;
+        Scanner obj=new Scanner(System.in);
+        System.out.println("Enter the input of n:");
+        n=obj.nextInt();
+
+        for(int i = 0; i<=n; i++){
+            product=product+i;
+        }
+        System.out.println("Product of n integer is="+product);
+
+    }    
+}
